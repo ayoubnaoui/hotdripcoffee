@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Kaff - Cafe & Coffee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Owl  Carouse css -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Owl  Carouse css -->
+
+
+  <!-- jquery   -->
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <!-- jquery   -->
+
+</head>
+
+<body>
+
+  <section class="head">
+    <div class="content flex1">
+      <div class="social_media flex">
+        <span>Follow Us </span>
+        <hr>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+
+      <div class="logo">
+        <img src="image/logo.png" alt="">
+      </div>
+
+      <div class="account social_media flex">
+        <i class="fas fa-user"></i>
+        <i class="fas fa-shopping-bag"></i>
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </section>
+
+
+  <header>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <span class="closebtn " onclick="closeNav()">&times;</span>
+        <div class="menu_items">
+          <a href="#"> Home </a>
+          <a href='#'> About Us </a>
+          <a href='#'> Products </a>
+          <a href='#'> Blog </a>
+          <a href='#'> Contact </a>
+        </div>
+      </div>
+      <div class="social_media">
+        <i class="fas fa-bars hamburger-icon " onclick="openNav()"></i>
+      </div>
+    </nav>
+  </header>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+
+
+
+  <section class="home">
+    <div class="item">
+      <div class="heading">
+        <h1> <span>Best Coffee</span> Great Company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <button>Taste Coffee</button>
+      </div>
+      <div class="img">
+        <img src="images/" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="menu top">
+    <div class="container">
+      <div class="heading">
+        <h5>Kaffa Menu </h5>
+        <h2>Tasty Products </h2>
+      </div>
+
+      <div class="owl-carousel owl-theme mtop">
+        <div class="item">
+          <div class="img">
+            <img src="image/m1.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Coffee Drinks</h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="image/m2.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Black & Green Tea </h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="image/m3.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Sandwiches </h3>
+            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+          </div>
+        </div>
+        <div class="item">
+            <div class="img">
+              <img src="image/m4.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Bakery & Sweets </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="image/m5.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Chocalate </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="image/m6.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Fresh Croissants </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="image/m7.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Cakes </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="image/m8.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Sweet Cookies </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <!-- Owl  Carouse js file  -->
+    <script src="js/jquery3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/owl.carousel.js" charset="utf-8"></script>
+    <!-- Owl  Carouse js file  -->
+  
+  
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        responsive: {
+          511: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+    })
+  </script>
+
+  <section class="wrapper mtop">
+    <div class="container flex">
+      <div class="left  ">
+        <div class="heading heading2">
+          <h1> <span>Roasted Coffee <br></span> for Your Mood </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="text flex">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="add">
+              <h5>Our Location</h5>
+              <label>Kathmandu, Nepal Baniyatar</label>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button>Read More</button>
+          <button class="btn1">Contact Us </button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="image/w1.png" alt="">
+      </div>
+    </div>
+  </section>
